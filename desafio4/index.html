@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Codelândia</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="section1">
+        <div>
+            <img src="./image/image.svg">
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <h4>Bem vindo de volta</h4>
+            <h1>Faça login na sua conta</h1>
+            <div class="childrenContainer">
+                <form>
+                <input name="email" type="email" placeholder="E-mail">
+                <input name="senha" type="password" placeholder="Senha">
+                    <div class="remember-me">
+                    <label>
+                    <input name="check" type="checkbox">
+                    <small class="checkRemember">Lembre de mim</small>
+                    </label>
+                    <a id="esqueceuSenha" href="">Esqueceu sua senha?</a>
+                    </div>
+                <input id="submit" name="submit" type="submit" value="Entrar">
+                </form>
+                <button class="google" onclick="Redirecionar()">Ou faça login
+                 com o Google</button>
+                 <p class="rodaPe">Não tem uma conta?</p>
+                <a class="rodaPe" href="">Cadastre-se</a> 
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

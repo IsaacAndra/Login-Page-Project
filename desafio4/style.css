@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1
+{
+    height: 100%;
+    width: 50%;
+    background: #f7fafc;
+    position:absolute;
+}
+img
+{
+    display: block;
+    width: 550px;
+    height: 530px;
+    margin: auto;
+    margin-top: 25%;
+}
+.section2
+{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: right;
+    background: #fff;
+}
+.container
+{
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 25%;
+}
+.childrenContainer
+{
+    display: column;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 01px solid#ddd;
+    width: 350px ;
+    height: 50px;
+    border-radius: 3px;
+}
+input[type="checkbox"]
+{
+    width: 1.1em;
+    height: 1.1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;  
+    cursor: pointer;
+  
+}
+input[type="checkbox"]:checked
+{
+    background-color: grey;
+    transition: 0.5s;
+}
+label
+{
+    cursor: pointer;
+}
+.remember-me
+{
+    position: relative;
+    align-items: center;
+}
+h1,h4{
+    margin: 0;
+    padding: 2px 0 10px 0;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  a
+  {
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+  }
+  #esqueceuSenha
+  {
+      float: right;
+      margin-top: 25px;
+  }
+input[type="submit"]
+{
+    background: #04c35c;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.google
+{
+    width: 350px ;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #1a202c;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+footer
+{
+    display: flex;
+    position: relative;
+}
+.rodaPe
+{
+    margin: 10px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.google:hover
+{
+    position: relative;
+    background: white;
+    box-shadow: -15px 30px 50px rgba(0, 0, 0, 0.2);
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.15) translateX(0) translateY(0);
+}
+.google::before
+{
+    content: url(./image/iconfinder_Google_1298745\ 1.png);
+    position: relative;
+    left: -5%;
+    top: 5%;
+}
+input[type="submit"]:hover
+{
+    background: rgb(97, 221, 215);
+    box-shadow: -15px 30px 50px rgba(0, 0, 0, 0.2);
+    color: black;
+    transform: scale(1.15) translateX(0) translateY(-20px);
+    transition: 0.5s;
+}
